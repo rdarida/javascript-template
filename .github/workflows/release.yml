@@ -1,0 +1,53 @@
+name: Release
+
+on:
+  push:
+    branches: [ xmain ]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+          registry-url: https://registry.npmjs.org
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test
+
+      - name: SonarCloud Scan
+        uses: sonarsource/sonarcloud-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+
+#      - name: Generate documentation
+#        run: npm run docs
+
+#      - name: Copy coverage into docs
+#        run: mv coverage/lcov-report docs/coverage
+
+#      - name: Deploy documentation
+#        uses: rdarida/simple-github-pages-deploy-action@v1
+#        with:
+#          git-base-folder: 'docs'
+#          commit-message: 'Automatic deploy'
+
+      - name: Build
+        run: npm run build
+
+      - name: Publish
+        run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
