@@ -1,14 +1,14 @@
 {
-  "name": "project-template",
+  "name": "javascript-template",
   "version": "0.0.0",
-  "description": "Project Template",
+  "description": "JavaScript Template",
   "scripts": {
     "release": "standard-version",
     "postrelease": "git push --follow-tags origin main"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rdarida/project-template.git"
+    "url": "git+https://github.com/rdarida/javascript-template.git"
   },
   "author": "Róbert Darida",
   "license": "MIT",

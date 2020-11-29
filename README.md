@@ -1,10 +1,10 @@
-![Dependencies](https://david-dm.org/rdarida/project-template/status.svg) ![Development Dependencies](https://david-dm.org/rdarida/project-template/dev-status.svg)
+![Dependencies](https://david-dm.org/rdarida/javascript-template/status.svg) ![Development Dependencies](https://david-dm.org/rdarida/javascript-template/dev-status.svg)
 
-# Project Template
+# JavaScript Template
 Kick off your project with this template.
 
 ## Project setup
-1. Rename all the occurrance of **"project-template"** and **"Project Template"** in the project.
+1. Rename all the occurrance of **"javascript-template"** and **"JavaScript Template"** in the project.
 
 2. Remove **`package-lock.json`** from **`.gitignore`**.
 
