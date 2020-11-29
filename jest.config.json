@@ -1,0 +1,7 @@
+{
+  "name": "javascript-template",
+  "testEnvironment": "node",
+  "collectCoverage": true,
+  "collectCoverageFrom": ["./src/**/*.js"],
+  "coveragePathIgnorePatterns": ["/node_modules/", "/src/cli.js", "/test/"]
+}

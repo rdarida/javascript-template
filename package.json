@@ -3,6 +3,16 @@
   "version": "0.0.0",
   "description": "JavaScript Template",
   "scripts": {
+    "clean": "rimraf coverage dist docs test-report.xml",
+    "lint": "eslint ./{src,test}/**/*.js",
+    "format": "prettier --write \"**/*.{js,json}\"",
+    "pretest": "rimraf coverage test-report.xml",
+    "test": "jest",
+    "predocs": "rimraf docs",
+    "docs": "jsdoc -c jsdoc.config.json",
+    "prebuild": "rimraf dist",
+    "build": "babel src --out-dir dist",
+    "prerelease": "npm run build",
     "release": "standard-version",
     "postrelease": "git push --follow-tags origin main"
   },
@@ -14,14 +24,23 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
+    "eslint": "^7.14.0",
     "husky": "^4.3.0",
+    "jest": "^26.6.3",
+    "jsdoc": "^3.6.6",
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2",
     "standard-version": "^9.0.0"
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "post-commit": "npm run format"
     }
   }
 }
