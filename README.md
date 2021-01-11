@@ -123,7 +123,7 @@ A quick look at the top-level files and directories.
 
 - [How to Create a Barebones Poduction Ready NPM Package with Babel 7](https://medium.com/@aleklordhurst/how-to-create-a-barebones-production-ready-npm-package-with-babel-7-f6a0570543d3)
 
-- [JSDoc Style Guid](https://github.com/shri/JSDoc-Style-Guide)
+- [JSDoc Style Guide](https://github.com/shri/JSDoc-Style-Guide)
 
 - [Automatically Publish to npm using GitHub Actions](https://sergiodxa.com/articles/github-actions-npm-publish)
 
