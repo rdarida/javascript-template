@@ -2,7 +2,7 @@ name: Release
 
 on:
   push:
-    branches: [ main ]
+    branches: [ Xmain ]
 
 jobs:
   release:
@@ -26,11 +26,11 @@ jobs:
       - name: Run tests
         run: npm test
 
-#      - name: SonarCloud Scan
-#        uses: sonarsource/sonarcloud-github-action@master
-#        env:
-#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      - name: SonarCloud Scan
+        uses: sonarsource/sonarcloud-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
       - name: Generate documentation
         run: npm run docs
@@ -44,10 +44,10 @@ jobs:
           git-base-folder: 'docs'
           commit-message: 'Automatic deploy'
 
-#      - name: Build
-#        run: npm run build
+      - name: Build
+        run: npm run build
 
-#      - name: Publish
-#        run: npm publish --access public
-#        env:
-#          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Publish
+        run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

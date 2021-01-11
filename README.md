@@ -16,7 +16,7 @@ Kick off your project with this template.
 
 6. Remove **`package-lock.json`** from **`.gitignore`**.
 
-7. Uncomment **`SonarCloud Scan`**, and **`Publish`** step in **.github/workflows/release.yml**.
+7. Rename **`Xmain`** to **`main`** in **.github/workflows/release.yml**.
 
 8. Push the modification into your remote repository.
 
