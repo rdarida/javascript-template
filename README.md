@@ -4,15 +4,21 @@
 Kick off your project with this template.
 
 ## Project setup
-1. Rename all the occurrance of **"javascript-template"** and **"JavaScript Template"** in the project.
+1. Create new GitHub repository from this template.
 
-2. Run **`npm install`**.
+2. Create new project on [SonarCloud](https://sonarcloud.io/) for the new repository.
 
-3. Remove **`package-lock.json`** from **`.gitignore`**.
+3. Create secrets called **`SONAR_TOKEN`**, and **`NPM_TOKEN`** on the repository's settings page.
 
-4. Uncomment **`Publish`** step in **.github/workflows/release.yml**.
+4. Rename all the occurrance of **"javascript-template"** and **"JavaScript Template"** in the project.
 
-5. Push the modification into your remote repository.
+5. Run **`npm install`**.
+
+6. Remove **`package-lock.json`** from **`.gitignore`**.
+
+7. Uncomment **`SonarCloud Scan`**, and **`Publish`** step in **.github/workflows/release.yml**.
+
+8. Push the modification into your remote repository.
 
 
 ## Available scripts
