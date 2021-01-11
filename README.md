@@ -52,7 +52,7 @@ Runs BEFORE **`release`** and calls the **`build`** script.
 Runs [standard-version](https://github.com/conventional-changelog/standard-version/) for versioning using [semver](https://semver.org/) and CHANGELOG generation powered by [Conventional Commits](https://conventionalcommits.org).
 
 ### `postrelease`
-Runs AFTER `release`, pushes **standard-version**'s modification into the git repository.
+Runs AFTER **`release`**, pushes **standard-version**'s modification into the git repository.
 
 ## What's inside?
 A quick look at the top-level files and directories.
