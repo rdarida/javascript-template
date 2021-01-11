@@ -4,9 +4,12 @@
 
 const { greet } = require('./index');
 
+/**
+ * @param {string[]} argv The command line arguments.
+ */
 ((argv) => {
   try {
-    console.log(greet(argv.joins(' ')));
+    console.log(greet(argv.join(' ')));
   } catch (error) {
     console.log(error.message);
   }
