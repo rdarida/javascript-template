@@ -109,3 +109,20 @@ A quick look at the top-level files and directories.
 16. **`README.md`**: A text file containing useful reference information about your project.
 
 17. **`sonar-project.properties`**: This is a configuration file for [SonarCloud](https://sonarcloud.io).
+
+
+## Resources
+
+- [How to Create and Publish Your First Node.js Module](https://codeburst.io/how-to-create-and-publish-your-first-node-js-module-444e7585b738)
+
+- [How to Create a Barebones Poduction Ready NPM Package with Babel 7](https://medium.com/@aleklordhurst/how-to-create-a-barebones-production-ready-npm-package-with-babel-7-f6a0570543d3)
+
+- [JSDoc Style Guid](https://github.com/shri/JSDoc-Style-Guide)
+
+- [Automatically Publish to npm using GitHub Actions](https://sergiodxa.com/articles/github-actions-npm-publish)
+
+- [Automating npm publish with GitHub Actions](https://www.youtube.com/watch?v=exhlcvCs6yw)
+
+- [Making SonarCloud play nicely with Jest](https://medium.com/@daendersby/making-sonarcloud-play-nicely-with-jest-fa271f559024)
+
+- [Excluding in sonar-project.properties file](https://stackoverflow.com/questions/39115582/directory-excluding-in-sonar-project-properties-file-doesnt-work-for-me)
