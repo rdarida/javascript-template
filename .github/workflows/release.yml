@@ -2,7 +2,7 @@ name: Release
 
 on:
   push:
-    branches: [ xmain ]
+    branches: [ main ]
 
 jobs:
   release:
@@ -32,22 +32,22 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
-#      - name: Generate documentation
-#        run: npm run docs
+      - name: Generate documentation
+        run: npm run docs
 
-#      - name: Copy coverage into docs
-#        run: mv coverage/lcov-report docs/coverage
+      - name: Copy coverage into docs
+        run: mv coverage/lcov-report docs/coverage
 
-#      - name: Deploy documentation
-#        uses: rdarida/simple-github-pages-deploy-action@v1
-#        with:
-#          git-base-folder: 'docs'
-#          commit-message: 'Automatic deploy'
+      - name: Deploy documentation
+        uses: rdarida/simple-github-pages-deploy-action@v1
+        with:
+          git-base-folder: 'docs'
+          commit-message: 'Automatic deploy'
 
-      - name: Build
-        run: npm run build
+#      - name: Build
+#        run: npm run build
 
-      - name: Publish
-        run: npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+#      - name: Publish
+#        run: npm publish --access public
+#        env:
+#          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
