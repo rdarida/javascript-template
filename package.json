@@ -2,6 +2,13 @@
   "name": "javascript-template",
   "version": "0.0.0",
   "description": "JavaScript Template",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "javascript-template": "dist/cli.js"
+  },
   "scripts": {
     "clean": "rimraf coverage dist docs test-report.xml",
     "lint": "eslint ./{src,test}/**/*.js",
