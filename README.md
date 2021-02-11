@@ -132,3 +132,5 @@ A quick look at the top-level files and directories.
 - [Making SonarCloud play nicely with Jest](https://medium.com/@daendersby/making-sonarcloud-play-nicely-with-jest-fa271f559024)
 
 - [Excluding in sonar-project.properties file](https://stackoverflow.com/questions/39115582/directory-excluding-in-sonar-project-properties-file-doesnt-work-for-me)
+
+- [Avoid NPM Headaches With Good Practices](https://medium.com/swlh/avoid-npm-headaches-with-good-practices-d2d52ff257f9)
