@@ -134,3 +134,5 @@ A quick look at the top-level files and directories.
 - [Excluding in sonar-project.properties file](https://stackoverflow.com/questions/39115582/directory-excluding-in-sonar-project-properties-file-doesnt-work-for-me)
 
 - [Avoid NPM Headaches With Good Practices](https://medium.com/swlh/avoid-npm-headaches-with-good-practices-d2d52ff257f9)
+
+- [7 Repos I Didn’t Know I Needed For Front-End](https://javascript.plainenglish.io/7-repos-i-didnt-know-i-needed-for-front-end-389bf498afaa)
