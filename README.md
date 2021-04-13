@@ -1,7 +1,18 @@
-![Dependencies](https://david-dm.org/rdarida/javascript-template/status.svg) ![Development Dependencies](https://david-dm.org/rdarida/javascript-template/dev-status.svg) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=rdarida_javascript-template&metric=alert_status)](https://sonarcloud.io/dashboard?id=rdarida_javascript-template) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=rdarida_javascript-template&metric=coverage)](https://sonarcloud.io/dashboard?id=rdarida_javascript-template)
-
-# JavaScript Template
-Kick off your project with this template.
+<h1 align="center">javascript-template</h1>
+<p align="center">Kick off your project with this template</p>
+<p align="center">
+  <a href="https://sonarcloud.io/dashboard?id=rdarida_javascript-template" target="_blank" alt="Project on SonarCloud">
+    <img alt="Quality Gate Status" src="https://sonarcloud.io/api/project_badges/measure?project=rdarida_javascript-template&metric=alert_status" />
+  </a>
+  
+  <a href="https://sonarcloud.io/dashboard?id=rdarida_javascript-template" target="_blank" alt="Project on SonarCloud">
+    <img alt="Coverage" src="https://sonarcloud.io/api/project_badges/measure?project=rdarida_javascript-template&metric=coverage" />
+  </a>
+  
+  <img alt="dependencies" src="https://david-dm.org/rdarida/javascript-templat/status.svg" />
+  <img alt="devDependenceis" src="https://david-dm.org/rdarida/javascript-templat/dev-status.svg" />
+</p>
+<hr>
 
 ## Project setup
 1. Create new GitHub repository from this template.
