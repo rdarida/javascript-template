@@ -9,8 +9,8 @@
     <img alt="Coverage" src="https://sonarcloud.io/api/project_badges/measure?project=rdarida_javascript-template&metric=coverage" />
   </a>
   
-  <img alt="dependencies" src="https://david-dm.org/rdarida/javascript-templat/status.svg" />
-  <img alt="devDependenceis" src="https://david-dm.org/rdarida/javascript-templat/dev-status.svg" />
+  <img alt="dependencies" src="https://david-dm.org/rdarida/javascript-template/status.svg" />
+  <img alt="devDependenceis" src="https://david-dm.org/rdarida/javascript-template/dev-status.svg" />
 </p>
 <hr>
 
